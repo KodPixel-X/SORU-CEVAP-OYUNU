@@ -54,12 +54,9 @@ else:
 
 time.sleep(1)
 
-print("Son soru")
-time.sleep(0.4)
+
 print("AVRUPANIN KALBİ HANGİ ŞEHİRDİR?")
 time.sleep(0.3)
-
-cevap4 = input("Cevap: ")
 
 if cevap4.strip().lower() == "viyana":
     puan -= 1
@@ -68,7 +65,16 @@ else:
     puan += 30
     print(Fore.GREEN + "DOĞRU!")
 
-time.sleep(0.3)
+time.sleep(1)
+cevap5 = input("Filistinin Başkenti? Ve Son Soru")
+
+if cevap5.strip().lower() == "küdüs":
+    puan -= 1
+    print(Fore.RED + "YANLIŞ! -1 puan :o")
+else:
+    puan += 30
+    print(Fore.GREEN + "DOĞRU!")
+
 print("BİTTİ ama 0,5 saniye sonra puanını göreceksin :)")
 time.sleep(0.5)
 
@@ -79,3 +85,4 @@ else:
 
 print(Fore.CYAN + f"TOPLAM PUANIN: {puan}")
 input("\nOYUN BİTTİ, ÇIKMAK İÇİN ENTER TUŞUNA BAS")
+
