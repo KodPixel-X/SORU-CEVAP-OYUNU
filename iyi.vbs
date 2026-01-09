@@ -1,0 +1,1 @@
+MsgBox "AFFERİN,İYİ BİR PUAN SANİRİM:)", vbWarning

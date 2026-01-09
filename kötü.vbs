@@ -1,0 +1,1 @@
+MsgBox "BİRAZCİK DAHA İYİ PERFORMANS GOSTERMELİSİN :)", vbWarning
